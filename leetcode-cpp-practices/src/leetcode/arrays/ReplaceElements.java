@@ -3,7 +3,7 @@ package leetcode.arrays;
 import java.util.Arrays;
 
 public class ReplaceElements {
-//dummy comment1
+//dummy comment12
 	public int[] replaceElements(int[] arr) {
         int n =arr.length;
         int max = arr[n-1];
