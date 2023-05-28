@@ -6,10 +6,11 @@ public class Removeduplicate {
 //Remove Duplicates from Sorted Array
 	public int removeduplicate(int nums[]) {
 		int count=1;
-        for(int i=0;i<nums.length-1;i++){
-            if(nums[i]!=nums[i+1]){
-                nums[count]=nums[i+1];
-                count++;
+        for(int i=0;i<nums.length;i++){
+            if(nums[i]!=nums[count]){
+            	count++;
+                nums[i]=nums[count];
+                
 		}
 		
 		
